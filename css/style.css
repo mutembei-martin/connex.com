@@ -388,7 +388,7 @@ body{
 	line-height: 60px;
 }
 
-/*@media screen and (max-width: 938px) {
+@media screen and (max-width: 938px) {
 
  .name1{
 	width: 80%;
@@ -408,6 +408,7 @@ body{
 	height: 25px;
 	font-size: 16px;
 	line-height: 25px;
+	background: #fff;
 	}
 }
 
@@ -476,6 +477,7 @@ body{
 	height: 20px;
 	font-size: 14px;
 	line-height: 20px;
+	background: #0ff;
 }
 .exp{
 	font-size: 0.8em;
@@ -515,4 +517,4 @@ body{
 	width: 35%;
 	text-align: left;
 }
-}*/
+}
