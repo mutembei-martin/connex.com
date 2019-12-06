@@ -518,3 +518,9 @@ body{
 	text-align: left;
 }
 }
+@media screen and (max-width: 440px) {
+.crights,.abt, .privacy,.terms{
+	font-size: 10px;
+
+}
+}
