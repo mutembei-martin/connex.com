@@ -523,4 +523,7 @@ body{
 	font-size: 8px;
 
 }
+.signin, .signup{
+	font-size: 12px;
+	}
 }
