@@ -520,7 +520,7 @@ body{
 }
 @media screen and (max-width: 440px) {
 .crights,.abt, .privacy,.terms{
-	font-size: 10px;
+	font-size: 8px;
 
 }
 }
