@@ -12,8 +12,21 @@
  <div id="top-bar">
  	<div class="exp">Experience<a class="off">ON</a></div>
  		<div class="formain">
- 		<div class="signup">Sign Up</div><div class="signin">Log In</div> 
- 	</div>
+ 			<div class="signup">Sign Up
+ 			
+ 				<form class="form" method="post" action="index.html">
+				<div id="profile"></div>
+				<input id="email" type="text" name="email" placeholder="Email or phone"><br/>
+				<div id="message"></div>
+				<input id="next" type="submit" value="Next" name="next"	><br/>
+				<div class="find"> 
+				<a href=""><p>Find my account</p></a>
+				</div>
+				</form>
+			</div>
+ 			
+ 			<div class="signin">Log In</div> 
+ 		</div>
 
  	
  </div>
@@ -45,6 +58,18 @@
 <script src="media/jquery.js"></script>
 <script src="js/particles.js"></script>
 <script src="js/app.js"></script>
+<script>
+	$(document).ready(function(){
+
+			$(".signup").click(function(){
+				$(".signin").fadeOut();
+				$(".signup").delay(200).animate({width:"50%"});
+				$(".signup").delay(300).animate({height:"200px"});
+				$(".form").delay(900).fadeIn();
+
+			})
+})
+</script>
 
 
 </body>
