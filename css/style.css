@@ -30,7 +30,7 @@ body{
 	font-weight: bold;
 	background: transparent;
 	text-align: center;
-	font-size: 6.5em;
+	font-size: 6.7em;
 	font-family: 'Audiowide';
 
 }
@@ -436,7 +436,7 @@ input{
 
  .name1{
 	width: 80%;
-	font-size: 5em;
+	font-size: 5.2em;
 }
 .meet, .connect, .share{
 	font-size: 18px;
@@ -459,7 +459,7 @@ input{
 
  .name1{
 	width: 100%;
-	font-size: 2.5em;
+	font-size: 2.7em;
 }
 .meet, .connect, .share, .purpose, .vision{
 	font-size: 16px;
