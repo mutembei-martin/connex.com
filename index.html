@@ -94,11 +94,20 @@
 	$(document).ready(function(){
 
 			$(".signup").click(function(){
+				if (innerWidth > 738) {
 				$(".signin").fadeOut();
 				$(".signup").delay(200).animate({width:"50%"});
 				$(".signup").delay(300).animate({height:"300px"});
 				$(".form").delay(900).fadeIn();
 				$(".back").delay(4000).fadeIn();
+				}else{
+					// $(".signin").fadeOut();
+					// $(".signup").animate({left:"5%"}).delay(100).delay(200).animate({width:"50%"});
+					// $(".signup").delay(300).animate({height:"300px"});
+					// $(".form").delay(900).fadeIn();
+					// $(".back").delay(4000).fadeIn();
+				}
+				
 
 			})
 
