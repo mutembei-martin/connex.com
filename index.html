@@ -111,15 +111,22 @@
 
 			})
 
-
 				$(".signin").click(function(){
+					if (innerWidth > 738) {
 				$(".signup").fadeOut();
 				$(".signin").delay(200).animate({left:"45%"}).delay(100).animate({width:"50%"}).delay(200).animate({height:"240px"});
 					$(".form").delay(1600).fadeIn();
 				$(".back").delay(4000).fadeIn();
-				
+			}else{
 
+				// $(".signup").fadeOut();
+				// $(".signin").delay(200).animate({left:"45%"}).delay(100).animate({width:"50%"}).delay(200).animate({height:"240px"});
+				// 	$(".form").delay(1600).fadeIn();
+				// $(".back").delay(4000).fadeIn();
+			}
+				
 			})
+			
 
 })
 </script>
