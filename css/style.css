@@ -119,11 +119,12 @@ body{
 }
 
 .signup{
+	position: absolute;
 	width: 25%;
 	height: 30px;
 	background: transparent;
 	float: left;
-	margin-left:45%;
+	left:45%;
 	margin-top: 25px;
 	color: #fff;
 	text-align: center;
@@ -165,6 +166,15 @@ input{
 	border-left: 3px solid #fff;
 	cursor: pointer;
 	z-index: 2;
+}
+.btnsignup, .btnsignin{
+	width: 40%;
+	background: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+	height: 30px;
+	font-size: 16px;
+	margin-top: 5px;
 }
 .back{
 	float: right;
@@ -452,7 +462,9 @@ input{
 	height: 25px;
 	font-size: 16px;
 	line-height: 25px;
+	background: #262626;
 	}
+
 }
 
 @media screen and (max-width: 738px) {
@@ -520,6 +532,21 @@ input{
 	height: 20px;
 	font-size: 14px;
 	line-height: 20px;
+}
+.form{
+	transform: scale(.95);
+	margin-top: -5%;
+}
+.w3-input{width:100%;
+	margin-left: 0%;
+	font-size:13px;
+}
+.w3-label{
+	font-size:13px;
+}
+
+.btnsignup, .btnsignin{
+	height: 25px;
 }
 .exp{
 	font-size: 0.8em;
