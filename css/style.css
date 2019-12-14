@@ -554,7 +554,7 @@ input{
 	font-size: 14px;
 }
 .back{
-	transform: scale(.8);
+	transform: scale(.5);
 }
 .exp{
 	font-size: 0.8em;
