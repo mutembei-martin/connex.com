@@ -469,6 +469,10 @@ input{
 
 @media screen and (max-width: 738px) {
 
+.btnsignup, .btnsignin{
+	font-size: 11px;
+}
+
  .name1{
 	width: 100%;
 	font-size: 3em;
@@ -547,6 +551,10 @@ input{
 
 .btnsignup, .btnsignin{
 	height: 25px;
+	font-size: 14px;
+}
+.back{
+	transform: scale(.8);
 }
 .exp{
 	font-size: 0.8em;

@@ -94,7 +94,7 @@
 	$(document).ready(function(){
 
 			$(".signup").click(function(){
-				if (innerWidth > 738) {
+				if (innerWidth > 550) {
 				$(".signin").fadeOut();
 				$(".signup").delay(200).animate({width:"50%"});
 				$(".signup").delay(300).animate({height:"300px"});
@@ -104,14 +104,14 @@
 					$(".signin").fadeOut();
 					$(".signup").delay(200).animate({left:"0%"}).delay(100).animate({width:"100%"}).delay(200).animate({height:"220px"});
 					$(".form").delay(1600).fadeIn();
-					// $(".back").delay(4000).fadeIn();
+					$(".back").delay(4000).fadeIn();
 				}
 				
 
 			})
 
 				$(".signin").click(function(){
-					if (innerWidth > 738) {
+					if (innerWidth > 550) {
 				$(".signup").fadeOut();
 				$(".signin").delay(200).animate({left:"45%"}).delay(100).animate({width:"50%"}).delay(200).animate({height:"240px"});
 					$(".form").delay(1600).fadeIn();
