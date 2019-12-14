@@ -553,9 +553,7 @@ input{
 	height: 25px;
 	font-size: 14px;
 }
-.back{
-	transform: scale(.8);
-}
+
 .exp{
 	font-size: 0.8em;
 }
